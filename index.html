@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel= 'stylesheet' href='style.css'>
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+        <title>Pixel Art Designer</title>
+    </head>
+    <body>
+        <h1>Pixel Art Designer</h2>
+        <h4>Please Select A Color: </h4>
+
+        <div class="flex-container">
+          <button class="blue" value="blue" onclick="selectColor(this.value)"></button>
+          <button class="green" value="green" onclick="selectColor(this.value)"></button>
+          <button class="yellow" value="yellow" onclick="selectColor(this.value)"></button>  
+          <button class="orange" value="orange"onclick="selectColor(this.value)"></button>
+          <button class="red" value="red" onclick="selectColor(this.value)"></button>
+          <button class="purple" value="purple" onclick="selectColor(this.value)"></button>  
+          <button class="black" value="black"onclick="selectColor(this.value)"></button>
+          <button class="white" value="white" onclick="selectColor(this.value)"></button>
+        </div>
+
+        <div id="container"></div>
+        <h4 id="reset">Press 'R' To Reset</h4>
+        <script type="text/javascript" src="script.js"></script>       
+    </body>
+
+</html>
